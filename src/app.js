@@ -10,10 +10,6 @@ const userRouter = require('./users/users.router')
 const authRouter = require('./auth/auth.router')
 const conversationsRouter = require('./conversations/conversations.router')
 
-
-const messagesServices = require('./messages/messages.services');
-const messageControllers = require ('./messages/messages.controllers');
-
 //? Initial Configs
 
 const app = express()
